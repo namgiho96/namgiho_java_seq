@@ -1,16 +1,18 @@
 package Arithmetic;
-/** 
- * 등차 수열은 두 항의 차이는 이 수열
- * 공차 : 공통적으로 나타나는 차이
- *2
- * **/
+/**
+ * 3의 배수를 제외한 1 부터 10까지 정수 출력 [결과] 1 2 4 5 7 8 10
+ */
 
 public class Sequence10 {
 	public static void main(String[] args) {
-		int A = 2;
-		int S = A;
-		int D = 6;
-		int N = 2;
-		int AN = 0;
+		int a;
+		for(int i = 1; i < 11;i++){
+			if(i%3==0){
+				
+			}else{
+				System.out.print(i+",");
+			}
+			//이곳을 채우시오
+		}
 	}
 }

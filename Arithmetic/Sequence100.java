@@ -1,16 +1,28 @@
 package Arithmetic;
-/** 
- * 등차 수열은 두 항의 차이는 이 수열
- * 공차 : 공통적으로 나타나는 차이
- *2
- * **/
-
+/**
+1+2+3+4+...+100 까지의 합계를 구하는 순서도를 작성하시오
+[변수]
+      i : 항
+      sum : 합계
+[결과]
+      ====================
+      1+2+3+...+100까지 합
+      =====================
+      5050
+      =====================
+ * */
 public class Sequence100 {
 	public static void main(String[] args) {
-		int A = 2;
-		int S = A;
-		int D = 6;
-		int N = 2;
-		int AN = 0;
+		int i=0, x=0;
+		while(true){
+			i++;
+			x += i;
+			if(i<100){
+				continue;
+			}else{
+				break;
+			}
+		}
+		System.out.println(x);
 	}
 }
