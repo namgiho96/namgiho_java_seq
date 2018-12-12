@@ -26,6 +26,11 @@ public class Sequence200 {
   
         
         while(true){
+        	/**
+        	A+=D;
+        	S+=A;
+        	 */
+
         	AN = A+D*(N-1);
         	S += AN;
         	System.out.println("Count is "+N+" Number is "+AN+" Sum is "+S);
