@@ -7,6 +7,8 @@ package Arithmetic;
 
 public class Sequence20 {
 	public static void main(String[] args) {
+		String res = "";
+		
 		int i = 0, d = 1, sum = 1;
 		while(true){
 			i++;
@@ -15,11 +17,11 @@ public class Sequence20 {
 		if(i < 19){
 			continue;
 		}else{
+			res += sum;
 			break;
 		}
-		
 		}
-		System.out.print(sum);
+		System.out.printf(res);
 			
 			
 		}
