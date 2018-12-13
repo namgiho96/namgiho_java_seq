@@ -1,6 +1,6 @@
 package Arithmetic;
 /**
- * 		//이        //항         //시리즈
+ * 		//카운트        //항         //시리즈
 Count is 2, Number is 8, Sum is 10
 Count is 3, Number is 14, Sum is 24
 Count is 4, Number is 20, Sum is 44
